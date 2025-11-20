@@ -1,7 +1,7 @@
-# Python Data Analysis Learning Series
+# Python Data Analysis Project Series
 
-This repository is part of my personal learning journey to strengthen my skills in Python and data analysis. It includes four end-to-end mini projects, each focusing on a different dataset and analytical objective.  
-Every project marks a step in my learning path, showing how I moved from simple data cleaning to working with real datasets, visualizing patterns, and sharing insights in a meaningful way.
+This repository is part of my ongoing effort to develop and refine my skills in Python and data analysis. It includes four end-to-end mini projects, each focused on a different dataset and analytical objective.
+Each project reflects a stage in my growth, showing my progression from foundational data cleaning to analyzing real datasets, visualizing trends, and presenting insights in a clear and meaningful way.
 
 ## 🔹 [Project 1](https://github.com/marissawyl/Python_Projects/tree/main/Project_1): Exploring the 2023 U.S. Data Job Market
 
