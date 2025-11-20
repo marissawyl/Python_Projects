@@ -1,8 +1,8 @@
 # Introduction
 
-This project continues my journey to strengthen my **Python** and **data analysis** skills. Building on the foundational concepts and exercises from my first project, it focuses on a 2024 job postings dataset from _Luke Barousse_ to explore trends and insights from the Indian job market. Along the way, I practiced cleaning, analyzing, and visualizing real-world data, while at the same time learned how to turn those findings into clear, meaningful insights.
+This project continues my journey to strengthen my **Python** and **data analysis** skills. Building on the foundational concepts from my first project, it focuses on a 2024 job postings dataset from _Luke Barousse_ to explore trends and insights from the Indian job market. Along the way, I practiced cleaning, analyzing, and visualizing real-world data, while at the same time learned how to turn those findings into clear, meaningful insights.
 
-If you’d like to see the earlier part of this series, where I laid the groundwork for my Python and data analysis skills, feel free to check out my 👉 [Exercise 1](https://github.com/marissawyl/Python_Project_Exercises/tree/main/Exercise_1).
+If you’d like to see the earlier part of this series, where I laid the groundwork for my Python and data analysis skills, feel free to check out my 👉 [Project 1](https://github.com/marissawyl/Python_Projects/tree/main/Project_1).
 
 # Background
 
@@ -59,7 +59,7 @@ df['job_skills'] = df['job_skills'].apply(lambda skills: ast.literal_eval(skills
 
 To address this question, I first identified the top 3 job roles based on their prevalence in job postings, then compared their distribution across leading countries. By visualizing the likelihood of each role being posted in different regions, I could observe regional trends and high-demand positions, helping inform strategic career or business decisions in the global data industry.
 
-View my notebook with detailed steps here: [1_Roles_by_Country.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/1_Roles_by_Country.ipynb)
+View my notebook with detailed steps here: [1_Roles_by_Country.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/1_Roles_by_Country.ipynb)
 
 ### Visualize Data
 
@@ -90,7 +90,7 @@ plt.show()
 
 ### Results
 
-![Roles_by_Country](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/images/Roles_by_Country.png)
+![Roles_by_Country](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/images/Roles_by_Country.png)
 
 ### Insights
 
@@ -102,7 +102,7 @@ plt.show()
 
 To explore this, I examined the monthly distribution of job postings across six major data roles. Looking at the job postings across 2024 makes it possible to see which roles were consistently in demand and which spiked only at certain times of the year. These patterns offer useful guidance for anyone deciding where to focus their skills and career development in the data field.
 
-View my notebook with detailed steps here: [2_Job_Roles_by_Month.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/2_Job_Roles_by_Month.ipynb)
+View my notebook with detailed steps here: [2_Job_Roles_by_Month.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/2_Job_Roles_by_Month.ipynb)
 
 ### Visualize Data
 
@@ -134,7 +134,7 @@ plt.show()
 
 ### Results
 
-![Job_Roles_by_Month](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/images/Job_Roles_by_Month.png)
+![Job_Roles_by_Month](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/images/Job_Roles_by_Month.png)
 
 ### Insights
 
@@ -146,7 +146,7 @@ plt.show()
 
 This analysis compares the remote job share for Data Analysts, Data Engineers, and Data Scientists. Understanding this distribution provides valuable context for both job seekers exploring flexible opportunities and organizations evaluating how their offerings align with market expectations.
 
-View my notebook with detailed steps here: [3_Remote_Jobs.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/3_Remote_Jobs.ipynb)
+View my notebook with detailed steps here: [3_Remote_Jobs.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/3_Remote_Jobs.ipynb)
 
 ### Visualize Data
 
@@ -164,7 +164,7 @@ plt.show()
 
 ### Results
 
-![Remote_Jobs](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/images/Remote_Jobs.png)
+![Remote_Jobs](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/images/Remote_Jobs.png)
 
 ### Insights
 
@@ -176,7 +176,7 @@ plt.show()
 
 To explore this, I looked at both the most in-demand and highest-paying skills for Data Analysts. I compared the skills that appear most frequently in job postings with those linked to the top salaries. This helps identify which skills can boost employability, which can maximize earning potential, and where to focus for career growth.
 
-View my notebook with detailed steps here: [4_Salary_by_Skills.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/4_Salary_by_Skills.ipynb)
+View my notebook with detailed steps here: [4_Salary_by_Skills.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/4_Salary_by_Skills.ipynb)
 
 ### Visualize Data
 
@@ -232,7 +232,7 @@ plt.show()
 
 ### Results
 
-![Salary_by_Skills](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/images/Salary_by_Skills.png)
+![Salary_by_Skills](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/images/Salary_by_Skills.png)
 
 ### Insights
 
@@ -244,7 +244,7 @@ plt.show()
 
 To explore this question, I mapped out the top skills mentioned in job postings and analyzed how frequently they occur together. By looking at these co-occurrences, the goal was to uncover which skills are not only important on their own but also commonly required in combination. This helps to identify clusters of tools and technologies that data analysts are expected to master, making it clearer where to focus skill development.
 
-View my notebook with detailed steps here: [5_Skill_Coocurrences_Pairwise.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/5_Skill_Coocurrences_Pairwise.ipynb)
+View my notebook with detailed steps here: [5_Skill_Coocurrences_Pairwise.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/5_Skill_Coocurrences_Pairwise.ipynb)
 
 ### Construct the Co-occurrence Matrix
 
@@ -293,7 +293,7 @@ plt.show()
 
 ### Results
 
-![Skill_Coocurrences_Pairwise](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_2/images/Skill_Coocurrences_Pairwise.png)
+![Skill_Coocurrences_Pairwise](https://github.com/marissawyl/Python_Projects/blob/main/Project_2/images/Skill_Coocurrences_Pairwise.png)
 
 ### Insights
 
