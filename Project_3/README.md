@@ -1,8 +1,8 @@
 # Introduction
 
-This project continues my learning journey to strengthen my **Python** and **data analysis** skills. Building on insights from my previous exploration of the 2024 job market dataset, this exercise focuses on a new dataset: Uber trip data from New York City (2014–2015), originally shared by _Shan Singh_ on Udemy. Through this project, I practiced data wrangling, exploratory analysis, and visualization to uncover travel patterns and gain a deeper understanding of how to work with real-world datasets.
+This project continues my learning journey to strengthen my **Python** and **data analysis** skills. Building on insights from my previous exploration of the 2024 job market dataset, this project focuses on a new dataset: Uber trip data from New York City (2014–2015), originally shared by _Shan Singh_ on Udemy. Through this project, I practiced data wrangling, exploratory analysis, and visualization to uncover travel patterns and gain a deeper understanding of how to work with real-world datasets.
 
-If you’re interested in seeing the earlier part of this Python learning series, where I analyzed job market trends in India, feel free to check out my [Exercise 2](https://github.com/marissawyl/Python_Project_Exercises/tree/main/Exercise_2) ~
+If you’re interested in seeing the earlier part of this Python learning series, where I analyzed job market trends in India, feel free to check out my [Project 2](https://github.com/marissawyl/Python_Projects/tree/main/Project_2).
 
 # Background
 
@@ -94,7 +94,7 @@ df_final['Date/Time'] = pd.to_datetime(df_final['Date/Time'])
 
 To answer this, I compared ride demand across months and broke it down by day of the week. By visualizing monthly trends alongside weekday patterns, I could see both overall growth and the weekly distribution of activity. This helped me identify not only when demand peaked, but also which days consistently drove higher volumes.
 
-View my notebook with detailed steps here: [1_Uber_Ride_Demand_Trends.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/1_Uber_Ride_Demand_Trends.ipynb)
+View my notebook with detailed steps here: [1_Uber_Ride_Demand_Trends.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/1_Uber_Ride_Demand_Trends.ipynb)
 
 ### Visualize Data
 
@@ -132,7 +132,7 @@ plt.show()
 
 ### Results
 
-![Uber_Ride_Demand_Trends](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/images/Uber_Ride_Demand_Trends.png)
+![Uber_Ride_Demand_Trends](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/images/Uber_Ride_Demand_Trends.png)
 
 ### Insights
 
@@ -144,7 +144,7 @@ plt.show()
 
 To explore this, I grouped Uber pickup data from New York City (Jan–Jun 2015) by both the hour of the day and the day of the week. By plotting these trends, it became possible to observe how demand shifts throughout the day and compare weekdays with weekends. This visualization highlights not only the daily peaks but also the differences in behavior between weekdays and weekends, providing a better understanding of urban ride-hailing demand.
 
-View my notebook with detailed steps here: [2_Rush_Hour_by_Weekdays.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/2_Rush_Hour_by_Weekdays.ipynb)
+View my notebook with detailed steps here: [2_Rush_Hour_by_Weekdays.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/2_Rush_Hour_by_Weekdays.ipynb)
 
 ### Visualize Data
 
@@ -192,7 +192,7 @@ plt.show()
 
 ### Results
 
-![Rush_Hour_by_Weekdays](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/images/Rush_Hour_by_Weekdays.png)
+![Rush_Hour_by_Weekdays](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/images/Rush_Hour_by_Weekdays.png)
 
 ### Insights
 
@@ -204,7 +204,7 @@ plt.show()
 
 To uncover this, I mapped Uber pickup data from April to September 2014 into a heatmap that combines two critical dimensions: hours of the day and months of the year. This heatmap highlights not just daily rush hour peaks, but also how those peaks shift over time. By layering the hourly and monthly dimensions, the visualization makes it easier to spot behavioral changes in ride demand and the potential operational challenges or opportunities they create.
 
-View my notebook with detailed steps here: [3_Rush_Hour_by_Months.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/3_Rush_Hour_by_Months.ipynb)
+View my notebook with detailed steps here: [3_Rush_Hour_by_Months.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/3_Rush_Hour_by_Months.ipynb)
 
 ### Visualize Data
 
@@ -223,7 +223,7 @@ plt.show()
 
 ### Results
 
-![Rush_Hour_by_Months](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/images/Rush_Hour_by_Months.png)
+![Rush_Hour_by_Months](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/images/Rush_Hour_by_Months.png)
 
 ### Insights
 
@@ -235,7 +235,7 @@ plt.show()
 
 To uncover this relationship, I examined Uber’s active vehicles (supply) and trip volumes (demand) for each base during February 2015. I visualized both metrics by day of the week, applying linear regression to estimate how tightly supply and demand moved together. The slope of each regression line serves as a proxy for demand sensitivity, showing how much trip volume changes for every additional active vehicle.
 
-View my notebook with detailed steps here: [4_Active_Vehicles_vs_Trips_Analysis.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/4_Active_Vehicles_vs_Trips_Analysis.ipynb)
+View my notebook with detailed steps here: [4_Active_Vehicles_vs_Trips_Analysis.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/4_Active_Vehicles_vs_Trips_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -325,7 +325,7 @@ plt.show()
 
 ### Results
 
-![Active_Vehicles_vs_Trips_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_3/images/Active_Vehicles_vs_Trips_Analysis.png)
+![Active_Vehicles_vs_Trips_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_3/images/Active_Vehicles_vs_Trips_Analysis.png)
 
 ### Insights
 
