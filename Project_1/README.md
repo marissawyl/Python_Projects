@@ -55,7 +55,7 @@ df['job_skills'] = df['job_skills'].apply(lambda skills: ast.literal_eval(skills
 
 To figure this out, I first identified the top three roles based on popularity, then extracted the five most in-demand skills for each. The results highlight the leading job titles along with their key skills, helping me understand which areas to focus on depending on the role I want to pursue.
 
-View my notebook with detailed steps here: [1_Skills_Count.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/1_Skills_Count.ipynb)
+View my notebook with detailed steps here: [1_Skills_Count.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/1_Skills_Count.ipynb)
 
 ### Visualize Data
 
@@ -83,7 +83,7 @@ plt.show()
 
 ### Results
 
-![Skill_Count](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/images/Skills_Count.png)
+![Skill_Count](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/images/Skills_Count.png)
 
 ### Insights
 
@@ -96,7 +96,7 @@ plt.show()
 
 To explore the skill trends for Data Analysts in 2023, I focused specifically on job postings for that role and organized the required skills based on the month they were listed. This approach highlighted the 5 most in-demand skills each month, providing a clear view of how their popularity shifted over the year.
 
-View my notebook with detailed steps here: [2_Skills_Trend.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/2_Skills_Trend.ipynb)
+View my notebook with detailed steps here: [2_Skills_Trend.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/2_Skills_Trend.ipynb)
 
 ### Visualize Data
 
@@ -131,7 +131,7 @@ plt.show()
 
 ### Results
 
-![Skill_Trend](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/images/Skills_Trend.png)
+![Skill_Trend](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/images/Skills_Trend.png)
 
 ### Insights
 
@@ -144,7 +144,7 @@ plt.show()
 
 To determine which roles and skills offer the highest salaries, I focused on job postings from the US and analyzed their median pay. Before diving into the details, I first examined the salary distributions for common data positions such as Data Scientist, Data Engineer, and Data Analyst to understand which roles typically command the highest compensation.
 
-View my notebook with detailed steps here: [3_Salary_Analysis.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/3_Salary_Analysis.ipynb)
+View my notebook with detailed steps here: [3_Salary_Analysis.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/3_Salary_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -163,7 +163,7 @@ plt.show()
 
 ### Results
 
-![Salary_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/images/Salary_Analysis_1.png)
+![Salary_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/images/Salary_Analysis_1.png)
 
 ### Insights
 
@@ -217,7 +217,7 @@ plt.show()
 
 ### Results
 
-![Salary_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/images/Salary_Analysis.png)
+![Salary_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/images/Salary_Analysis.png)
 
 ### Insights
 
@@ -229,7 +229,7 @@ plt.show()
 
 To determine which skills provide the greatest value for career growth, I analyzed both their demand in job postings and their median salaries. This made it easier to highlight the skills that offer the best balance of demand and compensation.
 
-View my notebook with detailed steps here: [4_Optimal_Skills.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/4_Optimal_Skills.ipynb)
+View my notebook with detailed steps here: [4_Optimal_Skills.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/4_Optimal_Skills.ipynb)
 
 ### Visualize Data
 
@@ -270,7 +270,7 @@ plt.show()
 
 ### Results
 
-![Optimal_Skills](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_1/images/Optimal_Skills.png)
+![Optimal_Skills](https://github.com/marissawyl/Python_Projects/blob/main/Project_1/images/Optimal_Skills.png)
 
 ### Insights
 
