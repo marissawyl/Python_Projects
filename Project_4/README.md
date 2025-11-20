@@ -1,8 +1,8 @@
 # Introduction
 
-This project wraps up my four-part data analysis learning series. Like the earlier ones, it continues my hands-on practice with Python: exploring, cleaning, and visualizing real-world datasets to tell stories through data. Continuing from my previous projects — especially Exercise 3, which explored Uber trip data from New York City — this time I turned my attention to Bitcoin’s market movement. The dataset used here contains Bitcoin’s historical prices from 2013 to July 2017, originally shared by _Shan Singh_ on Udemy. Through this project, I wanted to look closer at how Bitcoin’s price evolved during its early years before entering the global spotlight in late 2017.
+This project wraps up my four-part data analysis learning series. Like the earlier ones, it continues my hands-on practice with Python: exploring, cleaning, and visualizing real-world datasets to tell stories through data. Continuing from my previous projects — especially Project 3, which explored Uber trip data from New York City — this time I turned my attention to Bitcoin’s market movement. The dataset used here contains Bitcoin’s historical prices from 2013 to July 2017, originally shared by _Shan Singh_ on Udemy. Through this project, I wanted to look closer at how Bitcoin’s price evolved during its early years before entering the global spotlight in late 2017.
 
-If you’d like to see the previous project in this series, feel free to check out my [Exercise 3](https://github.com/marissawyl/Python_Project_Exercises/tree/main/Exercise_3).
+If you’d like to see the previous project in this series, feel free to check out my [Project 3](https://github.com/marissawyl/Python_Projects/tree/main/Project_3).
 
 # Background
 
@@ -62,7 +62,7 @@ To explore this, I visualized historical price data from 2013 to 2017. The upper
 
 As background context, 2017 was a significant year for Bitcoin’s visibility and global market sentiment. The year saw a broad economic recovery, growing public attention on cryptocurrencies, and increased speculative interest as prices surged throughout the year. While these factors may have influenced the market, this analysis remains descriptive and focuses solely on the observable price movements shown in the data.
 
-View my notebook with detailed steps here: [1_Closing_Price_Movements_Analysis.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/1_Closing_Price_Movements_Analysis.ipynb)
+View my notebook with detailed steps here: [1_Closing_Price_Movements_Analysis.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/1_Closing_Price_Movements_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -128,7 +128,7 @@ fig.show()
 
 *Note: Plot displayed as a static image as Plotly interactive charts cannot be rendered directly on GitHub*
 
-![Closing_Price_Movements_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/image/Closing_Price_Movements_Analysis.png)
+![Closing_Price_Movements_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/images/Closing_Price_Movements_Analysis.png)
 
 ### Insights
 
@@ -140,7 +140,7 @@ fig.show()
 
 To dig into this, I analyzed daily return data from 2013 to 2017 to track how price fluctuations changed through time. The histogram visualizes the overall distribution of daily returns, showing how often small versus large price movements occurred. Meanwhile, the yearly boxplots compare volatility patterns across different periods, helping pinpoint when the market experienced sharper or steadier movements. The combined analysis offers a more comprehensive view of Bitcoin’s volatility dynamics throughout its early expansion period.
 
-View my notebook with detailed steps here: [2_Volatility_Analysis.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/2_Volatility_Analysis.ipynb)
+View my notebook with detailed steps here: [2_Volatility_Analysis.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/2_Volatility_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -202,7 +202,7 @@ fig.show()
 
 *Note: Plot displayed as a static image as Plotly interactive charts cannot be rendered directly on GitHub*
 
-![Volatility_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/image/Volatility_Analysis.png)
+![Volatility_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/images/Volatility_Analysis.png)
 
 ### Insights
 
@@ -214,7 +214,7 @@ fig.show()
 
 To explore this, I plotted daily close-to-close returns against the logarithmic scale of Bitcoin’s daily trading volume. By combining both Pearson and Spearman correlation values, I aimed to capture not just linear but also rank-based relationships between the two metrics. This visualization helps illustrate whether larger trading activity corresponds to stronger price movements or if volume and return patterns follow separate paths.
 
-View my notebook with detailed steps here: [3_Return_Volume_Correlation_Analysis.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/3_Return_Volume_Correlation_Analysis.ipynb)
+View my notebook with detailed steps here: [3_Return_Volume_Correlation_Analysis.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/3_Return_Volume_Correlation_Analysis.ipynb)
 
 ### Calculate the Pearson and Spearman values
 
@@ -264,7 +264,7 @@ fig.show()
 
 *Note: Plot displayed as a static image as Plotly interactive charts cannot be rendered directly on GitHub*
 
-![Return_Volume_Correlation_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/image/Return_Volume_Correlation_Analysis.png)
+![Return_Volume_Correlation_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/images/Return_Volume_Correlation_Analysis.png)
 
 ### Insights
 
@@ -276,7 +276,7 @@ fig.show()
 
 To explore this, I focused on Bitcoin’s 2016 price data and identified its largest single rally and drawdown within the year. The line chart shows the daily closing prices, with key points marked to highlight both extremes: a sharp 33.4% surge and a 28.6% drop. This simple view helps capture how quickly the market could swing during Bitcoin’s early adoption phase, capturing the tension between optimism and correction in a single year.
 
-View my notebook with detailed steps here: [4_Crash_Rally_Analysis.ipynb](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/4_Crash_Rally_Analysis.ipynb)
+View my notebook with detailed steps here: [4_Crash_Rally_Analysis.ipynb](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/4_Crash_Rally_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -331,7 +331,7 @@ fig.show()
 
 *Note: Plot displayed as a static image as Plotly interactive charts cannot be rendered directly on GitHub*
 
-![Crash_Rally_Analysis](https://github.com/marissawyl/Python_Project_Exercises/blob/main/Exercise_4/image/Crash_Rally_Analysis.png)
+![Crash_Rally_Analysis](https://github.com/marissawyl/Python_Projects/blob/main/Project_4/images/Crash_Rally_Analysis.png)
 
 ### Insights
 
@@ -341,7 +341,7 @@ fig.show()
 
 # What I Learned
 
-Through this final project, I deepened my understanding of both technical and analytical aspects of data visualization using Python. It was a valuable chance to connect everything I had learned from earlier exercises and apply it to a real financial dataset. Key lessons and skills I developed include:
+Through this final project, I deepened my understanding of both technical and analytical aspects of data visualization using Python. It provided a valuable opportunity to integrate the knowledge I had gained from earlier projects and apply it to a real financial dataset. Key lessons and skills I developed include:
 - Strengthening my ability to work with real-world time series data: cleaning, transforming, and organizing it for visual analysis.
 - Learning how to use both `plotly.express` for quick visuals and `plotly.graph_objects` for more control and customization.
 - Gaining a deeper understanding of volatility and momentum through data, which is not from finance theory, but by actually visualizing it.
@@ -358,6 +358,6 @@ Through this final project, I deepened my understanding of both technical and an
 
 This project wrapped up my Python visualization journey by combining everything I had practiced, from data cleaning and transformation to building interactive charts. Working with Bitcoin’s historical price data gave me a deeper look into how data storytelling can uncover patterns behind market behavior, even without advanced financial models.
 
-Beyond improving my technical skills, this exercise helped me appreciate the creative side of visualization, which is finding balance between clarity and depth while turning raw data into an understandable story. It also showed how visualization can make something as complex as market volatility easier to interpret, even for a general audience.
+Beyond improving my technical skills, this project helped me appreciate the creative side of visualization, which is finding balance between clarity and depth while turning raw data into an understandable story. It also showed how visualization can make something as complex as market volatility easier to interpret, even for a general audience.
 
-Completing this exercise felt like a full-circle moment. It brought together coding, exploration, and visual communication in a way that reflects how much my analytical thinking has grown since the first project.
+Completing this project felt like a full-circle moment. It brought together coding, exploration, and visual communication in a way that reflects how much my analytical thinking has grown since the first project.
